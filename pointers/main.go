@@ -13,7 +13,7 @@ func main() {
 	fmt.Println("value of b = ", b)
 	fmt.Println("value of *b = ", *b)
 
-	var c **int = &b
+	var c **int = &b // Pointer to pointer :-)
 
 	fmt.Println("value of c = ", c)
 	fmt.Println("value of *c = ", *c)
